@@ -17,7 +17,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 		HibernateUtil.configure();
-		
+		//This is a new version of the proyect
+		//proyect of git application
 //		System.out.println(new User().getList(0, 1).size());
 		User u=new User().getBySapId("121");
 		Bucket b=new Bucket().getById(1);
